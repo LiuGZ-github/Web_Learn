@@ -81,9 +81,15 @@ div {
     background-color: aquamarine;
     margin: 10px;
     padding: 3px;
-    overflow: auto;
-    /* white-space: nowrap; */
+    /* 取消自动换行 */
+    white-space: nowrap;
     /* white-space: pre; */
+    /* 文本超出会添加滚轮 */
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+    overflow: hidden;
+    /* 超出用省略号 */
+    text-overflow: ellipsis;
 }
 
 span {

@@ -1,0 +1,86 @@
+.div-outer::before {
+    content: "";
+    display: table;
+}
+
+.div-outer {
+    width: 1000px;
+    height: 1500px;
+    background-color: lightcoral;
+    /* padding-top: 20px; */
+    /* padding-left: 30px; */
+    /* margin: 100px; */
+    /* border-top: 1px solid; */
+    /* padding: 1px; */
+    /* overflow: hidden; */
+}
+
+.div-inner1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    color: white;
+    /* margin: 10px; */
+    float: right;
+    /* position: sticky; */
+    /* top: 0; */
+    /* display: inline-block; */
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
+    /* 取父元素宽度的百分比 */
+    /* margin: 20px auto; */
+    /* margin-bottom: 20px; */
+    /* float: left;
+    margin-right: 20px; */
+    /* padding: 10px; */
+    /* position: relative; */
+    /* z-index只对relative有效 */
+    /* z-index: 2; */
+}
+
+.div-inner2 {
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    color: white;
+    /* margin: 10px; */
+    float: right;
+    /* display: inline-block; */
+    /* 相对定位 */
+    /* position: relative; */
+    /* 绝对定位 相对于非static父元素定位*/
+    /* position: absolute; */
+    /* 固定定位 */
+    /* position: fixed; */
+    /* 粘性定位 */
+    /* position: sticky; */
+    /* 偏移 */
+    /* top: 0; */
+    /* left: 0; */
+    /* margin-top: 30px; */
+    /* float: left; */
+    /* margin-left: 30px; */
+}
+
+.div-inner3 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    color: white;
+    /* margin: 10px; */
+    float: right;
+    /* position: sticky; */
+    /* display: inline-block; */
+    /* margin-top: 30px; */
+    /* float: left; */
+    /* margin-left: 30px; */
+}
+
+.div-inner4 {
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    position: relative;
+    z-index: 3;
+    clear: right;
+}
