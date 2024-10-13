@@ -1,0 +1,38 @@
+.div-flex {
+    width: 50%;
+    height: 500px;
+    background-color: lightcoral;
+    display: flex;
+    /* 主轴方向 */
+    /* flex-direction: row; */
+    /* 是否换行 */
+    flex-wrap: nowrap;
+    /* flex-flow: row nowrap; */
+    /* 水平对齐方式 */
+    justify-content: center;
+    /* 垂直对齐方式 */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+
+.div-flex-item {
+    width: 100px;
+    height: 100px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    /* flex-basis: 10%; */
+}
+
+.div-flex-item:nth-child(odd) {
+    background-color: lightgreen;
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+    /* order: 1; */
+}
+
+.div-flex-item:nth-child(even) {
+    background-color: red;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* order: 2; */
+}

@@ -1,0 +1,19 @@
+.container {
+    background-color: lightcoral;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: burlywood;
+}
+
+@media (min-width:768px) {
+    .card {
+        background-color: red;
+    }
+}
