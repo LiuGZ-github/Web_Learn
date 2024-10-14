@@ -1,0 +1,45 @@
+.container {
+    width: 80%;
+    height: 100vh;
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card {
+    width: 80%;
+    height: 100vh;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+/* 当屏幕宽度大于等于768px时触发 */
+@media (min-width:768px) {
+    .card {
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width:1000px) {
+    .col-md-1 {
+        width: calc(100% * 1 / 12);
+    }
+
+    .col-md-1 {
+        width: calc(100% * 2 / 12);
+    }
+}
+
+
+.col {
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid green;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
