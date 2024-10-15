@@ -1,6 +1,7 @@
 .div-flex {
     width: 50%;
     height: 500px;
+<<<<<<< HEAD
     background-color: lightcoral;
     display: flex;
     /* 主轴方向 */
@@ -11,6 +12,20 @@
     /* 水平对齐方式 */
     justify-content: center;
     /* 垂直对齐方式 */
+=======
+    background-color: lightgray;
+    display: flex;
+    /* 定义主轴方向 */
+    /* flex-direction: row; */
+    /* 是否换行 */
+    /* flex-wrap: wrap; */
+    /* direction wrap 的简写方式 */
+    /* flex-flow: row wrap; */
+
+    /* 水平对齐方式 */
+    justify-content: center;
+    /* 竖直对齐方式 */
+>>>>>>> 603aea7e960b722788fc69ad01f243b01fa04453
     /* align-items: center; */
     /* align-content: center; */
 }
@@ -20,6 +35,7 @@
     height: 100px;
     /* flex-grow: 1; */
     /* flex-shrink: 0; */
+<<<<<<< HEAD
     /* flex-basis: 10%; */
 }
 
@@ -35,4 +51,22 @@
     /* flex-grow: 1; */
     /* flex-shrink: 1; */
     /* order: 2; */
+=======
+    /* flex-basis: 150px; */
+    flex: auto;
+}
+
+.div-flex-item:nth-child(odd) {
+    background-color: lightpink;
+    /* order: 1; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 3; */
+}
+
+.div-flex-item:nth-child(even) {
+    background-color: lightgreen;
+    /* order: 2; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+>>>>>>> 603aea7e960b722788fc69ad01f243b01fa04453
 }
