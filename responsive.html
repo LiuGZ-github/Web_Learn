@@ -5,12 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="static/css/responsive.css">
+    <!-- <link rel="stylesheet" href="static/css/responsive.css"> -->
+    <link rel="stylesheet"
+        href="static/third_party/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <script
+        src="static/third_party/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="card"></div>
+        <form>
+            <div class="row">
+                <div class="col-md-6 col-xm-12">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">用户名</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">密码</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 
